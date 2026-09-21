@@ -1,0 +1,69 @@
+1a) AI vs ML
+AI is the bigger concept. It means making computers perform tasks that normally require human intelligence.
+Examples:
+Understanding language
+Recognizing images
+Playing games
+Making decisions
+Generating text or images
+Driving autonomously
+ML: Instead of explicitly programming every rule, we give the computer data and examples, and it learns patterns from that data.
+Artificial Intelligence (AI)
+│
+├── Machine Learning (ML)
+│   ├── Supervised Learning
+│   ├── Unsupervised Learning
+│   └── Reinforcement Learning
+│
+├── Deep Learning (DL)
+│
+├── Natural Language Processing (NLP)
+│
+├── Computer Vision
+│
+└── Robotics
+Real life example:
+Suppose you want a computer to identify cats.
+Traditional AI approach:
+"If the image has two eyes, two ears, fur, and a tail → CAT."
+This becomes difficult because cats can look very different.
+ML approach:
+Give the computer thousands of cat and non-cat images → let it learn the patterns.
+
+1b) Machine Learning vs Deep Learning
+Machine Learning
+Machine Learning uses algorithms to learn patterns from data.
+Examples:
+Linear Regression
+Logistic Regression
+Decision Tree
+Random Forest
+K-Means
+SVM
+XGBoost
+For many ML algorithms, humans need to decide which features are important.
+
+Deep Learning
+Deep Learning is a subset of Machine Learning that mainly uses neural networks with many layers.
+Examples:
+Neural Networks
+CNN
+RNN
+LSTM
+Transformer
+Deep learning can automatically learn useful features from large amounts of raw data.
+example:
+Image
+  ↓
+Neural Network
+  ↓
+Features learned automatically
+  ↓
+Cat / Dog
+Easy analogy
+Imagine teaching a child to recognize a dog.
+Traditional ML:
+You help the child notice:
+"Look at the ears, size, legs, tail, etc."
+Deep Learning:
+You show the child thousands of examples, and the system learns useful visual patterns by itself.
